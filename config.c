@@ -372,11 +372,21 @@ uint8 *ReadFile(const char *name, size_t *length) {
 
 void ParseConfigFile() {
   uint8 *file = ReadFile("zelda3.user.ini", NULL);
-  if (!file) {
+  if (!file)
     file = ReadFile("zelda3.ini", NULL);
-    if (!file)
-      return;
+  if (!file)
+  {
+      char resource_path[255];
+      uwp_get_localfolder("zelda3.user.ini", resource_path);
+      file = ReadFile(resource_path, NULL);
+      if (!file)
+      {
+		  uwp_get_localfolder("zelda3.ini", resource_path);
+          file = ReadFile(resource_path, NULL);
+      }
   }
+  if (!file)
+      return;
   fprintf(stderr, "Loading zelda3.ini\n");
   int section = -2;
   int lineno = 1;

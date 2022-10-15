@@ -211,7 +211,7 @@ void NMI_DoUpdates() {  // 8089e0
   memcpy(g_zenv.ppu->oam, &g_ram[0x800], 0x220);
 
   if (nmi_load_bg_from_vram) {
-    const uint8 *p;
+    const uint8 *p = NULL;
     switch (nmi_load_bg_from_vram) {
     case 1: p = g_ram + 0x1002; break;
     case 2: p = g_ram + 0x1000; break;

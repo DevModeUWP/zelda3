@@ -1,0 +1,17 @@
+C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\x64\Debug\SDL-UWP\SDL2.pri
+C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\third_party\SDL2\VisualC-WinRT\x64\Debug\SDL-UWP.vcxproj.AssemblyReference.cache
+C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\third_party\SDL2\VisualC-WinRT\x64\Debug\priconfig.xml
+C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\third_party\SDL2\VisualC-WinRT\x64\Debug\priconfig.xml.intermediate
+C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\third_party\SDL2\VisualC-WinRT\x64\Debug\unfiltered.layout.resfiles
+C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\third_party\SDL2\VisualC-WinRT\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\third_party\SDL2\VisualC-WinRT\x64\Debug\filtered.layout.resfiles
+C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\third_party\SDL2\VisualC-WinRT\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\third_party\SDL2\VisualC-WinRT\x64\Debug\excluded.layout.resfiles
+C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\third_party\SDL2\VisualC-WinRT\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\third_party\SDL2\VisualC-WinRT\x64\Debug\resources.resfiles
+C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\third_party\SDL2\VisualC-WinRT\x64\Debug\resources.resfiles.intermediate
+C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\third_party\SDL2\VisualC-WinRT\x64\Debug\pri.resfiles
+C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\third_party\SDL2\VisualC-WinRT\x64\Debug\pri.resfiles.intermediate
+C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\third_party\SDL2\VisualC-WinRT\x64\Debug\qualifiers.txt
+C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\third_party\SDL2\VisualC-WinRT\x64\Debug\qualifiers.txt.intermediate
+C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\third_party\SDL2\VisualC-WinRT\x64\Debug\MultipleQualifiersPerDimensionFound.txt

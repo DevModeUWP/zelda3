@@ -1,340 +1,307 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Zelda">
-      <UniqueIdentifier>{d6299dde-0eca-4199-8851-ead8818843b7}</UniqueIdentifier>
+    <Filter Include="Assets">
+      <UniqueIdentifier>6dca5b8f-eeff-43ec-8129-08591b52ca29</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
     </Filter>
-    <Filter Include="Snes">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{8dbd24e3-4805-4844-bbc0-f229cb086e62}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Platform">
-      <UniqueIdentifier>{be379862-b248-4de9-8553-bb51e2e72141}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Deploy">
-      <UniqueIdentifier>{6caf5b06-f969-4668-85ff-242ab970edf1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Deploy\saverefs">
-      <UniqueIdentifier>{43126d3a-e51a-4d0c-99a4-c0ca9a5e1a50}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Deploy\tables">
-      <UniqueIdentifier>{af7accb3-a27b-402b-ab20-86bbb57bd9a3}</UniqueIdentifier>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="snes">
+      <UniqueIdentifier>{7fed5376-ef3d-4c09-a8b9-13f12979d13d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="snes\apu.c">
-      <Filter>Snes</Filter>
-    </ClCompile>
-    <ClCompile Include="snes\cart.c">
-      <Filter>Snes</Filter>
-    </ClCompile>
-    <ClCompile Include="snes\cpu.c">
-      <Filter>Snes</Filter>
-    </ClCompile>
-    <ClCompile Include="snes\dma.c">
-      <Filter>Snes</Filter>
-    </ClCompile>
-    <ClCompile Include="snes\dsp.c">
-      <Filter>Snes</Filter>
-    </ClCompile>
-    <ClCompile Include="snes\input.c">
-      <Filter>Snes</Filter>
-    </ClCompile>
-    <ClCompile Include="snes\ppu.c">
-      <Filter>Snes</Filter>
-    </ClCompile>
-    <ClCompile Include="snes\snes.c">
-      <Filter>Snes</Filter>
-    </ClCompile>
-    <ClCompile Include="snes\snes_other.c">
-      <Filter>Snes</Filter>
-    </ClCompile>
-    <ClCompile Include="snes\spc.c">
-      <Filter>Snes</Filter>
-    </ClCompile>
-    <ClCompile Include="zelda_rtl.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="hud.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="dungeon.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="nmi.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="player_oam.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="load_gfx.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="messaging.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="overworld.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="sprite.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="sprite_main.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="tagalong.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="overlord.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="poly.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="ancilla.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="ending.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="attract.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="select_file.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="spc_player.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="player.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="tile_detect.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="misc.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="zelda_cpu_infra.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="config.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="platform\win32\volume_control.c">
-      <Filter>Platform</Filter>
-    </ClCompile>
-    <ClCompile Include="main.c">
-      <Filter>Zelda</Filter>
-    </ClCompile>
-    <ClCompile Include="snes\tracing.c">
-      <Filter>Snes</Filter>
-    </ClCompile>
+    <AppxManifest Include="Package.appxmanifest" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="zelda_rtl.h" />
+    <ClInclude Include="zelda_cpu_infra.h" />
+    <ClInclude Include="variables.h" />
+    <ClInclude Include="types.h" />
+    <ClInclude Include="tile_detect.h" />
+    <ClInclude Include="tagalong.h" />
+    <ClInclude Include="sprite_main.h" />
+    <ClInclude Include="sprite.h" />
+    <ClInclude Include="spc_player.h" />
+    <ClInclude Include="select_file.h" />
+    <ClInclude Include="poly.h" />
+    <ClInclude Include="player_oam.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="overworld.h" />
+    <ClInclude Include="overlord.h" />
+    <ClInclude Include="nmi.h" />
+    <ClInclude Include="misc.h" />
+    <ClInclude Include="messaging.h" />
+    <ClInclude Include="load_gfx.h" />
+    <ClInclude Include="hud.h" />
+    <ClInclude Include="features.h" />
+    <ClInclude Include="ending.h" />
+    <ClInclude Include="dungeon.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="attract.h" />
+    <ClInclude Include="assets.h" />
+    <ClInclude Include="ancilla.h" />
     <ClInclude Include="snes\apu.h">
-      <Filter>Snes</Filter>
+      <Filter>snes</Filter>
     </ClInclude>
     <ClInclude Include="snes\cart.h">
-      <Filter>Snes</Filter>
+      <Filter>snes</Filter>
     </ClInclude>
     <ClInclude Include="snes\cpu.h">
-      <Filter>Snes</Filter>
+      <Filter>snes</Filter>
     </ClInclude>
     <ClInclude Include="snes\dma.h">
-      <Filter>Snes</Filter>
+      <Filter>snes</Filter>
     </ClInclude>
     <ClInclude Include="snes\dsp.h">
-      <Filter>Snes</Filter>
-    </ClInclude>
-    <ClInclude Include="snes\input.h">
-      <Filter>Snes</Filter>
-    </ClInclude>
-    <ClInclude Include="snes\ppu.h">
-      <Filter>Snes</Filter>
-    </ClInclude>
-    <ClInclude Include="snes\saveload.h">
-      <Filter>Snes</Filter>
-    </ClInclude>
-    <ClInclude Include="snes\snes.h">
-      <Filter>Snes</Filter>
-    </ClInclude>
-    <ClInclude Include="snes\spc.h">
-      <Filter>Snes</Filter>
-    </ClInclude>
-    <ClInclude Include="zelda_rtl.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="hud.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="dungeon.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="nmi.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="load_gfx.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="overworld.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="variables.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="sprite.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="tagalong.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="overlord.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="poly.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="ancilla.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="ending.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="select_file.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="tile_detect.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="types.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="player.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="misc.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="player_oam.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="messaging.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="attract.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="zelda_cpu_infra.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="spc_player.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="sprite_main.h">
-      <Filter>Zelda</Filter>
+      <Filter>snes</Filter>
     </ClInclude>
     <ClInclude Include="snes\dsp_regs.h">
-      <Filter>Snes</Filter>
+      <Filter>snes</Filter>
     </ClInclude>
-    <ClInclude Include="platform\win32\resource.h">
-      <Filter>Resource Files</Filter>
+    <ClInclude Include="snes\input.h">
+      <Filter>snes</Filter>
     </ClInclude>
-    <ClInclude Include="config.h">
-      <Filter>Zelda</Filter>
+    <ClInclude Include="snes\ppu.h">
+      <Filter>snes</Filter>
+    </ClInclude>
+    <ClInclude Include="snes\saveload.h">
+      <Filter>snes</Filter>
+    </ClInclude>
+    <ClInclude Include="snes\snes.h">
+      <Filter>snes</Filter>
     </ClInclude>
     <ClInclude Include="snes\snes_regs.h">
-      <Filter>Snes</Filter>
+      <Filter>snes</Filter>
     </ClInclude>
-    <ClInclude Include="platform\win32\volume_control.h">
-      <Filter>Platform</Filter>
-    </ClInclude>
-    <ClInclude Include="assets.h">
-      <Filter>Zelda</Filter>
-    </ClInclude>
-    <ClInclude Include="features.h">
-      <Filter>Zelda</Filter>
+    <ClInclude Include="snes\spc.h">
+      <Filter>snes</Filter>
     </ClInclude>
     <ClInclude Include="snes\tracing.h">
-      <Filter>Snes</Filter>
+      <Filter>snes</Filter>
     </ClInclude>
+    <ClInclude Include="uwpfunc.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ClCompile Include="zelda_rtl.c" />
+    <ClCompile Include="zelda_cpu_infra.c" />
+    <ClCompile Include="tile_detect.c" />
+    <ClCompile Include="tagalong.c" />
+    <ClCompile Include="sprite_main.c" />
+    <ClCompile Include="sprite.c" />
+    <ClCompile Include="spc_player.c" />
+    <ClCompile Include="select_file.c" />
+    <ClCompile Include="poly.c" />
+    <ClCompile Include="player_oam.c" />
+    <ClCompile Include="player.c" />
+    <ClCompile Include="overworld.c" />
+    <ClCompile Include="overlord.c" />
+    <ClCompile Include="nmi.c" />
+    <ClCompile Include="misc.c" />
+    <ClCompile Include="messaging.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="load_gfx.c" />
+    <ClCompile Include="hud.c" />
+    <ClCompile Include="ending.c" />
+    <ClCompile Include="dungeon.c" />
+    <ClCompile Include="config.c" />
+    <ClCompile Include="attract.c" />
+    <ClCompile Include="ancilla.c" />
+    <ClCompile Include="snes\apu.c">
+      <Filter>snes</Filter>
+    </ClCompile>
+    <ClCompile Include="snes\cart.c">
+      <Filter>snes</Filter>
+    </ClCompile>
+    <ClCompile Include="snes\cpu.c">
+      <Filter>snes</Filter>
+    </ClCompile>
+    <ClCompile Include="snes\dma.c">
+      <Filter>snes</Filter>
+    </ClCompile>
+    <ClCompile Include="snes\dsp.c">
+      <Filter>snes</Filter>
+    </ClCompile>
+    <ClCompile Include="snes\input.c">
+      <Filter>snes</Filter>
+    </ClCompile>
+    <ClCompile Include="snes\ppu.c">
+      <Filter>snes</Filter>
+    </ClCompile>
+    <ClCompile Include="snes\snes.c">
+      <Filter>snes</Filter>
+    </ClCompile>
+    <ClCompile Include="snes\snes_other.c">
+      <Filter>snes</Filter>
+    </ClCompile>
+    <ClCompile Include="snes\spc.c">
+      <Filter>snes</Filter>
+    </ClCompile>
+    <ClCompile Include="snes\tracing.c">
+      <Filter>snes</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL_winrt_main_NonXAML.cpp" />
+    <ClCompile Include="uwpfunc.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="platform\win32\triforce.ico">
-      <Filter>Resource Files</Filter>
+    <ResourceCompile Include="SDL2-WinRTResources.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDL2-WinRTResource_BlankCursor.cur" />
+    <None Include="zelda3_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\SmallTile.scale-100.png">
+      <Filter>Assets</Filter>
     </Image>
-    <Image Include="platform\linux\triforce.png">
-      <Filter>Resource Files</Filter>
+    <Image Include="Assets\SmallTile.scale-125.png">
+      <Filter>Assets</Filter>
     </Image>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="platform\win32\zelda3.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="LICENSE.txt">
-      <Filter>Deploy</Filter>
-    </Text>
-    <Text Include="README.md">
-      <Filter>Deploy</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="zelda3.ini">
-      <Filter>Deploy</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="tables\zelda3_assets.dat">
-      <Filter>Deploy\tables</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="saves\ref\Chapter 1 - Zelda's Rescue.sav">
-      <Filter>Deploy\saverefs</Filter>
-    </None>
-    <None Include="saves\ref\Chapter 2 - After Eastern Palace.sav">
-      <Filter>Deploy\saverefs</Filter>
-    </None>
-    <None Include="saves\ref\Chapter 3 - After Desert Palace.sav">
-      <Filter>Deploy\saverefs</Filter>
-    </None>
-    <None Include="saves\ref\Chapter 4 - After Tower of Hera.sav">
-      <Filter>Deploy\saverefs</Filter>
-    </None>
-    <None Include="saves\ref\Chapter 5 - After Hyrule Castle Tower.sav">
-      <Filter>Deploy\saverefs</Filter>
-    </None>
-    <None Include="saves\ref\Chapter 6 - After Dark Palace.sav">
-      <Filter>Deploy\saverefs</Filter>
-    </None>
-    <None Include="saves\ref\Chapter 7 - After Swamp Palace.sav">
-      <Filter>Deploy\saverefs</Filter>
-    </None>
-    <None Include="saves\ref\Chapter 8 - After Skull Woods.sav">
-      <Filter>Deploy\saverefs</Filter>
-    </None>
-    <None Include="saves\ref\Chapter 9 - After Gargoyle's Domain.sav">
-      <Filter>Deploy\saverefs</Filter>
-    </None>
-    <None Include="saves\ref\Chapter 10 - After Ice Palace.sav">
-      <Filter>Deploy\saverefs</Filter>
-    </None>
-    <None Include="saves\ref\Chapter 11 - After Misery Mire.sav">
-      <Filter>Deploy\saverefs</Filter>
-    </None>
-    <None Include="saves\ref\Chapter 12 - After Turtle Rock.sav">
-      <Filter>Deploy\saverefs</Filter>
-    </None>
-    <None Include="saves\ref\Chapter 13 - After Ganon's Tower.sav">
-      <Filter>Deploy\saverefs</Filter>
-    </None>
+    <Image Include="Assets\SmallTile.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallTile.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LargeTile.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-16.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-32.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-48.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-256.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
   </ItemGroup>
 </Project>

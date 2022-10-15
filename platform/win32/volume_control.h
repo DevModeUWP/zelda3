@@ -4,7 +4,7 @@
 #include <stdbool.h>
 
 #ifndef SYSTEM_VOLUME_MIXER_AVAILABLE
-#define SYSTEM_VOLUME_MIXER_AVAILABLE 1
+//#define SYSTEM_VOLUME_MIXER_AVAILABLE 1
 #endif  // SYSTEM_VOLUME_MIXER_AVAILABLE
 
 int GetApplicationVolume();

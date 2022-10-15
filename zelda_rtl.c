@@ -8,6 +8,8 @@
 #include "snes/snes_regs.h"
 #include "snes/dma.h"
 #include "spc_player.h"
+//#include <Debugapi.h>
+//#include <errhandlingapi.h>
 
 ZeldaEnv g_zenv;
 uint8 g_ram[131072];
@@ -1076,7 +1078,9 @@ void ZeldaRenderAudio(int16 *audio_buffer, int samples, int channels) {
 
 
 void ZeldaReadSram() {
-  FILE *f = fopen("saves/sram.dat", "rb");
+    char path[255];
+	uwp_get_localfolder("saves\\sram.dat", path);
+  FILE *f = fopen(path, "rb");
   if (f) {
     if (fread(g_zenv.sram, 1, 8192, f) != 8192)
       fprintf(stderr, "Error reading saves/sram.dat\n");
@@ -1086,8 +1090,12 @@ void ZeldaReadSram() {
 }
 
 void ZeldaWriteSram() {
-  rename("saves/sram.dat", "saves/sram.bak");
-  FILE *f = fopen("saves/sram.dat", "wb");
+  char path[255];
+  uwp_get_localfolder("saves\\sram.dat", path);
+  char path2[255];
+  uwp_get_localfolder("saves\\sram.dat", path2);
+  rename(path, path2);
+  FILE *f = fopen(path, "wb");
   if (f) {
     fwrite(g_zenv.sram, 1, 8192, f);
     fclose(f);

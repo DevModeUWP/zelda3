@@ -25,6 +25,8 @@
 #include "assets.h"
 #include "load_gfx.h"
 
+#include "uwpfunc.h"
+
 static bool g_run_without_emu = 0;
 
 
@@ -201,7 +203,7 @@ static void SDLCALL AudioCallback(void *userdata, Uint8 *stream, int len) {
 
 
 
-#undef main
+//#undef main
 int main(int argc, char** argv) {
   SwitchDirectory();
   ParseConfigFile();
@@ -253,7 +255,8 @@ int main(int argc, char** argv) {
   bool custom_size  = g_config.window_width != 0 && g_config.window_height != 0;
   int window_width  = custom_size ? g_config.window_width  : g_current_window_scale * g_snes_width;
   int window_height = custom_size ? g_config.window_height : g_current_window_scale * g_snes_height;
-
+  uwp_create_save_dir();
+  SDL_SetHint(SDL_HINT_WINRT_HANDLE_BACK_BUTTON, "1");
   SDL_Window* window = SDL_CreateWindow(kWindowTitle, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, window_width, window_height, g_win_flags);
   if(window == NULL) {
     printf("Failed to create window: %s\n", SDL_GetError());
@@ -748,6 +751,18 @@ static void LoadAssets() {
   uint8 *data = ReadFile("tables/zelda3_assets.dat", &length);
   if (!data)
     data = ReadFile("zelda3_assets.dat", &length);
+  if (!data)
+  {
+      char resource_path[255];
+      uwp_get_localfolder("tables\\zelda3_assets.dat", resource_path);
+      data = ReadFile(resource_path, &length);
+      if (!data)
+      {
+          uwp_get_localfolder("zelda3_assets.dat", resource_path);
+          data = ReadFile(resource_path, &length);
+      }
+  }
+  
   if (!data) Die("Failed to read zelda3_assets.dat. Please see the README for information about how you get this file.");
 
   static const char kAssetsSig[] = { kAssets_Sig };
