@@ -27,3 +27,5 @@ __pycache__
 /tables/zelda3_assets.dat
 /SDL2.dll
 /x64/Debug
+/BundleArtifacts
+/x64/Release
