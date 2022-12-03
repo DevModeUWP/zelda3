@@ -978,7 +978,9 @@ void ZeldaOpenMsuFile() {
     return;
   char buf[40], hdr[8];
   sprintf(buf, "msu/alttp_msu-%d.pcm", msu_track);
-  msu_file = fopen(buf, "rb");
+  char resource_path[255];
+  uwp_get_localfolder(buf, resource_path);
+  msu_file = fopen(resource_path, "rb");
   if (msu_file == NULL || fread(hdr, 1, 8, msu_file) != 8 || *(uint32 *)(hdr + 0) != (('1' << 24) | ('U' << 16) | ('S' << 8) | 'M')) {
     if (msu_file != NULL) fclose(msu_file), msu_file = NULL;
     zelda_apu_write(APUI00, msu_track);

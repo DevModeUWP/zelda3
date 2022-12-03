@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="4d2ded52-7aee-402d-8c63-4cb5ff6cb07b"
+    Name="Zelda3-uwp"
     Publisher="CN=Tunip3"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="4d2ded52-7aee-402d-8c63-4cb5ff6cb07b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>zelda3</DisplayName>
+    <DisplayName>The Legend of Zelda: A Link to the Past</DisplayName>
     <PublisherDisplayName>Tunip3</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
