@@ -436,4 +436,6 @@ void ParseConfigFile() {
 
 void AfterConfigParse() {
   RegisterDefaultKeys();
+  g_config.enable_audio = true;
+  g_config.software_rendering = true;
 }

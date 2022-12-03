@@ -129,5 +129,6 @@ C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\third_party\SDL2\src\video\win
   SDL_syscond.cpp
   SDL_sysmutex.cpp
   SDL_systhread.cpp
+  LINK : C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\x64\Debug\SDL-UWP\SDL2.dll not found or not built by the last incremental link; performing full link
      Creating library C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\x64\Debug\SDL-UWP\SDL2.lib and object C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\x64\Debug\SDL-UWP\SDL2.exp
   SDL-UWP.vcxproj -> C:\Users\Tunip3\source\repos\Xbox-Homebrew\zelda3\x64\Debug\SDL-UWP\SDL2.dll
